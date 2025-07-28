@@ -1,0 +1,326 @@
+[{
+        "question": "What is the difference between AI, Machine Learning, and Deep Learning?",
+        "answer": "AI simulates human intelligence, ML allows systems to learn from data, and DL uses neural networks for complex pattern recognition."
+    },
+    {
+        "question": "Explain supervised, unsupervised, and reinforcement learning with examples.",
+        "answer": "Supervised uses labeled data (spam detection), unsupervised finds structure in unlabeled data (clustering), reinforcement uses rewards (game agents)."
+    },
+    {
+        "question": "What is the bias-variance tradeoff?",
+        "answer": "It's balancing underfitting (high bias) and overfitting (high variance) to achieve good generalization."
+    },
+    {
+        "question": "What is overfitting and how can you prevent it?",
+        "answer": "Overfitting is when the model memorizes training data. Prevent with regularization, more data, or simpler models."
+    },
+    {
+        "question": "How do you choose the right evaluation metric (accuracy vs precision vs recall vs F1-score)?",
+        "answer": "Use precision/recall for imbalanced data, F1-score when both matter, and accuracy for balanced datasets."
+    },
+    {
+        "question": "What is cross-validation and why is it used?",
+        "answer": "It splits data into training and validation sets multiple times for robust performance estimation."
+    },
+    {
+        "question": "Explain the difference between classification and regression.",
+        "answer": "Classification predicts categories (e.g. spam), regression predicts continuous values (e.g. prices)."
+    },
+    {
+        "question": "What are common types of feature engineering techniques?",
+        "answer": "Includes normalization, encoding, feature selection, binning, and dimensionality reduction like PCA."
+    },
+    {
+        "question": "How does a Decision Tree work?",
+        "answer": "It splits data by features that best separate classes using metrics like Gini or entropy."
+    },
+    {
+        "question": "Compare Random Forest and Gradient Boosting.",
+        "answer": "Random Forest builds trees independently; Gradient Boosting builds trees sequentially to fix errors."
+    },
+    {
+        "question": "What is a Support Vector Machine and how does it work?",
+        "answer": "SVM finds a hyperplane that maximizes class separation margins in the feature space."
+    },
+    {
+        "question": "How does k-Means clustering work?",
+        "answer": "It assigns points to k clusters by minimizing distance to cluster centroids."
+    },
+    {
+        "question": "Explain the working of Naive Bayes.",
+        "answer": "It applies Bayes' Theorem assuming feature independence, often used in text classification."
+    },
+    {
+        "question": "What is the difference between bagging and boosting?",
+        "answer": "Bagging builds parallel models; boosting builds sequential ones to correct previous errors."
+    },
+    {
+        "question": "How does Principal Component Analysis (PCA) work?",
+        "answer": "PCA reduces dimensionality by projecting data onto directions of maximum variance."
+    },
+    {
+        "question": "What is the architecture of a neural network?",
+        "answer": "It includes input, hidden, and output layers with weighted neurons connected via activations."
+    },
+    {
+        "question": "How does backpropagation work?",
+        "answer": "It calculates gradients of the loss and updates weights using gradient descent."
+    },
+    {
+        "question": "What is the role of activation functions (ReLU, Sigmoid, Tanh)?",
+        "answer": "They add non-linearity to the model, enabling learning of complex patterns."
+    },
+    {
+        "question": "What is the difference between CNN and RNN?",
+        "answer": "CNNs handle spatial data (images), RNNs handle sequential data (text, time-series)."
+    },
+    {
+        "question": "Explain LSTM and GRU where are they used?",
+        "answer": "They're RNN types used to retain long-term dependencies in sequence tasks like NLP."
+    },
+    {
+        "question": "What is transfer learning? Have you used any pre-trained models?",
+        "answer": "It reuses pre-trained models on new tasks, reducing training time and data needs."
+    },
+    {
+        "question": "What optimizers have you used (e.g., Adam, SGD)? Why Adam?",
+        "answer": "Adam is popular for its adaptive learning rate and faster convergence than SGD."
+    },
+    {
+        "question": "What Python libraries have you used for ML/DL?",
+        "answer": "Common ones are NumPy, pandas, scikit-learn, TensorFlow, Keras, and PyTorch."
+    },
+    {
+        "question": "How do you handle missing or imbalanced data?",
+        "answer": "Use imputation for missing data; oversampling or class weights for imbalance."
+    },
+    {
+        "question": "How do you optimize hyperparameters?",
+        "answer": "Using Grid Search, Random Search, or Bayesian Optimization based on validation scores."
+    },
+    {
+        "question": "What is your typical machine learning pipeline?",
+        "answer": "It includes data preprocessing, model training, evaluation, tuning, and deployment."
+    },
+    {
+        "question": "How do you deploy a machine learning model?",
+        "answer": "Use Flask, FastAPI, or Docker to expose the model as an API for production use."
+    },
+    {
+        "question": "Tell me about a recent AI/ML project you worked on.",
+        "answer": "Example: Built a classifier to detect fake news using TF-IDF and Logistic Regression."
+    },
+    {
+        "question": "What was the problem, how did you solve it, and what was the impact?",
+        "answer": "Problem: Spam detection. Solution: NLP model with high F1-score. Impact: Reduced spam by 80%."
+    },
+    {
+        "question": "How did you collect and preprocess the data?",
+        "answer": "Collected via APIs or scraping; cleaned, tokenized, normalized, and handled missing values."
+    },
+    {
+        "question": "Did you face any challenges with model performance or deployment?",
+        "answer": "Yes, imbalanced data and slow inference. Solved using resampling and model compression."
+    },
+    {
+        "question": "What would you do differently in your project if you had more time or resources?",
+        "answer": "Use a larger dataset, tune hyperparameters more, and explore deep learning models."
+    },
+    {
+        "question": "For NLP: What is tokenization? Explain attention and transformers.",
+        "answer": "Tokenization splits text into tokens. Transformers use attention to focus on relevant input parts."
+    },
+    {
+        "question": "For CV: How does a convolution layer work? What is pooling?",
+        "answer": "Convolution extracts features using filters; pooling downsamples to reduce dimensions and computation."
+    },
+    {
+        "question": "What are embeddings and how are they generated?",
+        "answer": "They convert data into dense vectors using models like Word2Vec, GloVe, or BERT."
+    },
+    {
+        "question": "What is a RAG (Retrieval-Augmented Generation) system?",
+        "answer": "RAG combines search (retrieval) with generation (LLMs) to produce grounded, context-aware answers."
+    },
+    {
+        "question": "How do you deploy ML models (Flask, FastAPI, Docker, etc.)?",
+        "answer": "Use Flask/FastAPI for APIs and Docker for containerized deployment on cloud or servers."
+    },
+    {
+        "question": "Have you used any CI/CD pipelines?",
+        "answer": "Yes, for automating testing and deployment using GitHub Actions or Jenkins."
+    },
+    {
+        "question": "What is model monitoring and why is it important?",
+        "answer": "It tracks performance in production, helping detect drift or failures early."
+    },
+    {
+        "question": "How do you handle versioning for datasets and models?",
+        "answer": "Use DVC, MLflow, or naming/version control conventions for tracking changes."
+    },
+    {
+        "question": "What would you do if your model has 95% accuracy but performs poorly in production?",
+        "answer": "Check for data drift, retrain with updated data, and monitor real-time feedback."
+    },
+    {
+        "question": "How would you build an AI system to detect fake news?",
+        "answer": "Collect labeled data, extract features, train a classifier, and deploy with monitoring."
+    },
+    {
+        "question": "You are given unstructured text data \u2014 what are the first steps?",
+        "answer": "Clean, tokenize, remove stopwords, normalize text, and convert to embeddings or vectors."
+    },
+    {
+        "question": "How would you detect fraud in a financial transaction dataset?",
+        "answer": "Use anomaly detection, clustering, or supervised learning with features like time, amount, location."
+    },
+    {
+        "question": "What is the difference between correlation and covariance?",
+        "answer": "Correlation measures direction and strength (bounded), covariance measures directional movement (unbounded)."
+    },
+    {
+        "question": "Explain Bayes' Theorem and its application.",
+        "answer": "It calculates the probability of a hypothesis given evidence; used in spam filters and diagnostics."
+    },
+    {
+        "question": "What is gradient descent and how does it work?",
+        "answer": "It minimizes loss by iteratively updating weights in the direction of the negative gradient."
+    },
+    {
+        "question": "What is the curse of dimensionality?",
+        "answer": "As dimensions increase, data becomes sparse and models become less effective due to overfitting."
+    },
+    {
+        "question": "Why do you want to be an AI Engineer?",
+        "answer": "I'm passionate about solving real-world problems using data and intelligent systems."
+    },
+    {
+        "question": "How do you stay updated with AI trends?",
+        "answer": "By following research papers, AI blogs, GitHub projects, and online communities like arXiv and Reddit."
+    },
+    {
+        "question": "Describe a time you worked in a team to solve a complex problem.",
+        "answer": "Worked with cross-functional team on a fraud detection project, managing data preprocessing and model building."
+    },
+    {
+        "question": "How do you explain complex ML concepts to non-technical stakeholders?",
+        "answer": "I use analogies, visuals, and focus on the impact rather than technical jargon."
+    },
+    {
+        "question": "What is a confusion matrix, and how do you interpret it?",
+        "answer": "It’s a table showing true/false positives and negatives, helping evaluate classification model performance."
+    },
+    {
+        "question": "What is data leakage and how can you prevent it?",
+        "answer": "Data leakage is when information from outside the training dataset is used, leading to overfitting. Prevent it by careful train-test splitting and avoiding future data."
+    },
+    {
+        "question": "Difference between parametric and non-parametric models?",
+        "answer": "Parametric models assume a fixed form (e.g., Linear Regression); non-parametric models don't (e.g., KNN)."
+    },
+    {
+        "question": "What is a ROC curve and AUC score?",
+        "answer": "ROC plots TPR vs FPR; AUC measures the model’s ability to distinguish between classes."
+    },
+    {
+        "question": "How do you perform feature selection?",
+        "answer": "Use methods like correlation, mutual information, recursive feature elimination, or L1 regularization."
+    },
+    {
+        "question": "What are precision-recall tradeoffs?",
+        "answer": "Improving precision often reduces recall and vice versa; you balance based on your business need."
+    },
+    {
+        "question": "How do you compare two models statistically?",
+        "answer": "Use statistical tests like paired t-tests, McNemar's test, or confidence intervals on metrics."
+    },
+    {
+        "question": "What’s the difference between L1 and L2 regularization?",
+        "answer": "L1 adds absolute value of weights (promotes sparsity); L2 adds squared weights (shrinks coefficients)."
+    },
+    {
+        "question": "How do you deal with outliers?",
+        "answer": "Use techniques like z-score filtering, IQR method, or robust models like tree-based methods."
+    },
+    {
+        "question": "How do you normalize vs standardize data, and when do you use each?",
+        "answer": "Normalize scales data to [0,1], standardize gives zero mean and unit variance; use based on model sensitivity."
+    },
+    {
+        "question": "What are one-hot vs label encoding?",
+        "answer": "One-hot creates binary columns for each category; label encoding assigns numeric codes."
+    },
+    {
+        "question": "Explain ensemble learning with examples.",
+        "answer": "It combines multiple models to improve performance (e.g., Bagging, Boosting, Stacking)."
+    },
+    {
+        "question": "What is the confusion between boosting and stacking?",
+        "answer": "Boosting sequentially corrects errors; stacking combines diverse models using a meta-model."
+    },
+    {
+        "question": "What is semi-supervised learning?",
+        "answer": "It uses a small labeled dataset with a large unlabeled dataset to improve learning."
+    },
+    {
+        "question": "What are vanishing/exploding gradients and how do you address them?",
+        "answer": "They cause unstable training. Use ReLU, gradient clipping, or batch normalization to mitigate them."
+    },
+    {
+        "question": "Difference between batch, mini-batch, and stochastic gradient descent?",
+        "answer": "Batch uses all data, stochastic uses one sample, mini-batch uses a subset per update."
+    },
+    {
+        "question": "What are attention mechanisms in deep learning?",
+        "answer": "They allow the model to focus on important parts of the input, improving sequence tasks."
+    },
+    {
+        "question": "Explain dropout and batch normalization.",
+        "answer": "Dropout randomly deactivates neurons during training; batch norm stabilizes and speeds up training."
+    },
+    {
+        "question": "What is the receptive field in CNNs?",
+        "answer": "It’s the region of input that affects a given neuron’s output—important for feature learning."
+    },
+    {
+        "question": "Difference between pretraining and fine-tuning?",
+        "answer": "Pretraining learns general features; fine-tuning adapts them to specific downstream tasks."
+    },
+    {
+        "question": "How does BERT differ from traditional word embeddings like Word2Vec?",
+        "answer": "BERT uses transformers and provides contextual embeddings; Word2Vec gives static vectors."
+    },
+    {
+        "question": "What is the difference between seq2seq and transformers?",
+        "answer": "Seq2seq uses RNNs; transformers use attention for parallelism and better performance."
+    },
+    {
+        "question": "What is masked language modeling?",
+        "answer": "It’s a pretraining task where the model predicts missing tokens in a sentence."
+    },
+    {
+        "question": "What are the differences between TensorFlow and PyTorch?",
+        "answer": "PyTorch is more Pythonic and dynamic; TensorFlow has better production support and static graphs."
+    },
+    {
+        "question": "When would you use DVC or MLflow?",
+        "answer": "Use DVC for data versioning, MLflow for experiment tracking and deployment."
+    },
+    {
+        "question": "Explain ONNX and model conversion.",
+        "answer": "ONNX allows models to be transferred across frameworks like PyTorch to TensorFlow."
+    },
+    {
+        "question": "What is eigenvalue decomposition and where is it used?",
+        "answer": "It breaks matrices into eigenvectors/values, used in PCA and data compression."
+    },
+    {
+        "question": "Explain KL divergence, entropy, or cross-entropy.",
+        "answer": "They measure differences between probability distributions; used in loss functions and information theory."
+    },
+    {
+        "question": "What is convex optimization, and why is it important in ML?",
+        "answer": "Convex problems guarantee global minima; many ML algorithms rely on convex loss functions."
+    }
+
+]
